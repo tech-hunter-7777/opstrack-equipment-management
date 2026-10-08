@@ -1,0 +1,43 @@
+{
+  "name": "opstrack",
+  "version": "1.0.0",
+  "description": "Equipment maintenance and operations workspace",
+  "scripts": {
+    "test": "node --import tsx --test tests/*.test.ts",
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "start": "next start"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.2.0",
+    "@radix-ui/react-slot": "^1.2.0",
+    "@supabase/supabase-js": "^2.100.0",
+    "@tailwindcss/postcss": "^4.2.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "exceljs": "^4.4.0",
+    "jspdf": "^4.2.0",
+    "jspdf-autotable": "^5.0.2",
+    "lucide-react": "^0.536.0",
+    "next": "^16.2.4",
+    "papaparse": "^5.5.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "recharts": "^3.7.0",
+    "tailwind-merge": "^3.5.0",
+    "tailwindcss": "^4.2.0",
+    "zod": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/papaparse": "^5.5.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tsx": "^4.21.0",
+    "typescript": "~5.9.3"
+  }
+}
